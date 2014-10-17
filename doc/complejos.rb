@@ -9,7 +9,18 @@ class Complejos
 	end
 
 	def suma(a,b)
+	
 		Complejos.new(self.x + a , self.y + b)
 	
 	end
+
+	def resta(a,b)
+
+		Complejos.new(self.x - a, self.y - b)
+
+	end
+
+
+
+
 end

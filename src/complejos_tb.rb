@@ -15,5 +15,6 @@ class TestClase < Test::Unit::TestCase
 	def test_simple
 		assert_equal("(1,1)",@C1.to_s)
 		assert_equal("(2,2)",@C1.suma(1,1).to_s)
+		assert_equal("(0,0)",@C1.resta(1,1).to_s)
 	end
 end
