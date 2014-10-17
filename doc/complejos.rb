@@ -20,7 +20,10 @@ class Complejos
 
 	end
 
-
+	def multiplicacion(a,b)
+		
+		Complejos.new(((self.x * a) - (self.y * b)) , ((self.x * b) + (self.y * a)))
+	end
 
 
 end
