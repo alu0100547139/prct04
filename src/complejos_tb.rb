@@ -18,5 +18,6 @@ class TestClase < Test::Unit::TestCase
 		assert_equal("(0,0)",@C1.resta(1,1).to_s)
 		assert_equal("(0,4)",@C1.multiplicacion(2,2).to_s)
 		assert_equal("(6,4)",@C2.division(2,2).to_s)
+		assert_equal("(4,4)",@C2.escalar(2).to_s)
 	end
 end

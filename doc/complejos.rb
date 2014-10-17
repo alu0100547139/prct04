@@ -33,5 +33,8 @@ class Complejos
 
 	end
 
+	def escalar(a)
 
+		Complejos.new( self.x * a , self.y * a )
+	end
 end
