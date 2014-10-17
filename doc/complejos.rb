@@ -25,5 +25,13 @@ class Complejos
 		Complejos.new(((self.x * a) - (self.y * b)) , ((self.x * b) + (self.y * a)))
 	end
 
+	def division(a,b)
+
+		int=(((self.x * a) + (self.y * b)) / ( a * a ) + ( b * b ))
+		ima=(((self.y * a) - (self.x * b)) / ( a * a ) + (b * b))
+		Complejos.new(int,ima)
+
+	end
+
 
 end
