@@ -1,15 +1,15 @@
-class complejos
+class Complejos
+	attr_accessor :x, :y
+	def initialize (x , y)
+		@x, @y = x, y
+	end
 
-def initialize (x , y)
-	@x, @y = x, y
+	def  to_s
+		"(#{@x},#{@y})"
+	end
+
+	def suma(a,b)
+		Complejos.new(self.x + a , self.y + b)
+	
+	end
 end
-
-def  to_s
-	"(#{@x},#{@y})"
-end
-
-
-
-
-end
-
